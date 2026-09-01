@@ -9,7 +9,7 @@ pipeline {
     environment {
         CI = 'true'
     }
-
+/* 
     triggers {
 
         cron('''
@@ -18,7 +18,7 @@ pipeline {
         ''')
 
     }
-
+ */
     stages {
 
         stage('Checkout Code') {
