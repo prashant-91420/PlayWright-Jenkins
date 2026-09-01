@@ -9,16 +9,7 @@ pipeline {
     environment {
         CI = 'true'
     }
-/* 
-    triggers {
 
-        cron('''
-            TZ=Asia/Kolkata
-            */3 * * * *
-        ''')
-
-    }
- */
     stages {
 
         stage('Checkout Code') {
